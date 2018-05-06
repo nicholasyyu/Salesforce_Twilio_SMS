@@ -1,0 +1,4 @@
+var url = "/apex/SendSMSPage?phNumber="+encodeURIComponent('{!SendSMS__c.MobilePhone__c}');
+window.open(url,"Send SMS", "width=300, height=300");
+
+http://www.mstsolutions.com/blog/content/sms-salesforce-using-twilio-api
